@@ -3,7 +3,7 @@ function getForm(req, res) {
 }
 
 function handle_sumbit(req, res) {
-  res.send("Thanks loser");
+  res.render("thanks", req.body);
 }
 
 module.exports = {
